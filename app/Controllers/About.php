@@ -8,4 +8,5 @@ class About extends BaseController
     {
         return view('about');
     }
+
 }
