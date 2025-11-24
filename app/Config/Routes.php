@@ -7,5 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('about', 'About::about');
-$routes->get('katalog', 'Katalog::index');
-$routes->get('kontak', 'Kontak::kontak');
+$routes->get('layanan', 'Layanan::layanan');
+$routes->get('konsultasi', 'Konsultasi::konsultasi');
+$routes->get('gallery','Gallery::gallery');
